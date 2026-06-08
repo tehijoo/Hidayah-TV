@@ -19,10 +19,9 @@ export default function Header() {
 
   // Daftar menu layanan agar lebih rapi dan bisa dipakai berulang (Desktop & Mobile)
   const layananMenu = [
-    { label: 'Jasa Pembuatan Canopy Membran', slug: 'canopy-membran' },
-    { label: 'Jasa Pembuatan Canopy Alderon', slug: 'canopy-alderon' },
-    { label: 'Jasa Pembuatan Aksesoris Wahana', slug: 'aksesoris-wahana' },
-    { label: 'Jasa Pemasangan Peredam Panas', slug: 'peredam-panas' },
+    { label: 'Jasa Pasang Antena TV Digital', slug: 'antena-tv-digital' },
+    { label: 'Jasa Pasang Parabola (Mini & Besar)', slug: 'parabola' },
+    { label: 'Jasa Service & Perbaikan Antena', slug: 'service-antena' },
     { label: 'Jasa Pemasangan Penangkal Petir', slug: 'penangkal-petir' },
   ];
 
@@ -37,15 +36,15 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3 shrink-0">
           
           {/* Gambar logo dibikin bulat (rounded-full) */}
-          <img 
-            src="/logo.png" 
-            alt="Logo Hidayah Canopy" 
-            className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover shadow-md border border-gray-100 bg-white" 
+          <img
+            src="/logo.png"
+            alt="Logo Hidayah TV"
+            className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover shadow-md border border-gray-100 bg-white"
           />
 
           <div className="flex flex-col">
-            <h1 className="text-primary font-black text-xl md:text-2xl leading-none">Hidayah Canopy</h1>
-            <p className="text-secondary text-[8px] md:text-[10px] font-bold tracking-[0.2em] uppercase mt-1">Professional Services</p>
+            <h1 className="text-primary font-black text-xl md:text-2xl leading-none">Hidayah TV</h1>
+            <p className="text-secondary text-[8px] md:text-[10px] font-bold tracking-[0.2em] uppercase mt-1">Antena &amp; Penangkal Petir</p>
           </div>
         </Link>
 
@@ -83,7 +82,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <div className="hidden sm:flex items-center bg-gray-50 rounded-lg p-1 border border-gray-200">
             <input type="text" placeholder="Cari..." className="bg-transparent text-xs px-3 py-1.5 outline-none w-24 xl:w-40" />
-            <button className="bg-secondary text-white p-1.5 rounded-md hover:bg-orange-600 transition shadow-sm">
+            <button className="bg-secondary text-white p-1.5 rounded-md hover:bg-secondary-dark transition shadow-sm">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
             </button>
           </div>

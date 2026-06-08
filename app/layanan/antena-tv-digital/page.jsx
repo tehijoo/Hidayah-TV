@@ -1,11 +1,11 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Jasa Pemasangan Penangkal Petir – Hidayah TV',
-  description: 'Jasa instalasi penangkal petir dengan kabel tembaga murni, splitzen, dan grounding di bawah 5 Ohm. Lindungi rumah dan perangkat elektronik dari sambaran petir.',
+  title: 'Jasa Pasang Antena TV Digital – Hidayah TV',
+  description: 'Jasa pemasangan antena TV digital HD bergaransi. Beralih ke siaran digital bebas biaya bulanan, gambar jernih untuk TV tabung, LED, hingga Smart TV.',
 };
 
-export default function PenangkalPetirPage() {
+export default function AntenaTvDigitalPage() {
   return (
     <main className="min-h-screen bg-gray-50 pb-20">
 
@@ -15,9 +15,9 @@ export default function PenangkalPetirPage() {
         <div className="absolute bottom-0 right-0 w-64 h-64 bg-black/10 rounded-full translate-x-1/4 translate-y-1/4"></div>
 
         <div className="relative z-10">
-          <h1 className="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tight">Pemasangan <br className="md:hidden" /> Penangkal Petir</h1>
+          <h1 className="text-4xl md:text-5xl font-black mb-4 uppercase tracking-tight">Antena TV Digital</h1>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
-          <p className="text-rose-100 text-lg font-medium opacity-90 italic">Instalasi &amp; Sistem Grounding Aman</p>
+          <p className="text-rose-100 text-lg font-medium opacity-90 italic">Jasa Pemasangan Profesional &amp; Bergaransi</p>
         </div>
       </section>
 
@@ -27,12 +27,12 @@ export default function PenangkalPetirPage() {
 
           {/* Badge Aksen */}
           <div className="inline-block bg-gray-100 text-primary px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-2">
-            Maximum Protection
+            Bebas Biaya Bulanan
           </div>
 
           {/* Heading */}
           <h2 className="text-3xl font-black text-primary mb-6 leading-tight">
-            Lindungi Perangkat dari <span className="text-secondary">Sambaran Petir</span>
+            Siaran Digital Jernih, <span className="text-secondary">Bebas Semut</span>
           </h2>
 
           {/* Grid Layout */}
@@ -41,41 +41,45 @@ export default function PenangkalPetirPage() {
             {/* Kolom Teks */}
             <div className="lg:col-span-8 space-y-5 order-2 lg:order-1">
               <p className="text-lg font-medium text-gray-800">
-                Antena TV dan parabola dipasang tinggi di atas atap — menjadikannya titik paling rawan tersambar petir. Tanpa penangkal petir, satu sambaran bisa merusak seluruh perangkat elektronik di rumah Anda.
+                Siaran TV analog sudah dimatikan. Saatnya beralih ke TV digital yang gambarnya jauh lebih jernih, suara lebih jelas, dan yang terpenting: tanpa biaya bulanan sama sekali.
               </p>
 
               <div className="h-px bg-gray-200 w-full my-6"></div>
 
               <p>
-                <strong className="text-primary">Hidayah TV</strong> menghadirkan jasa instalasi penangkal petir terpadu dengan standar keamanan tinggi. Kami melayani pemasangan untuk rumah tinggal, ruko, gedung komersial, hingga area pabrik.
+                <strong className="text-primary">Hidayah TV</strong> melayani jasa pemasangan antena TV digital (UHF) lengkap dengan setting Set Top Box (STB). Teknisi kami akan mengarahkan antena ke pemancar terkuat di area Anda agar seluruh channel tertangkap maksimal dan bebas "semut".
               </p>
 
               <p>
-                Kami menggunakan material berkualitas: <strong>kabel tembaga murni (BC)</strong>, <strong>tombak/splitzen</strong> sebagai ujung penerima sambaran, serta sistem grounding yang benar. Kami memastikan nilai tahanan tanah (resistensi) berada pada batas aman, yaitu <strong>di bawah 5 Ohm</strong>, sehingga arus petir langsung dinetralkan ke dalam bumi.
+                Layanan kami kompatibel dengan semua jenis pesawat televisi, mulai dari <strong>TV Tabung</strong> (menggunakan STB), <strong>TV LED biasa</strong>, hingga <strong>Smart TV</strong> yang sudah mendukung DVB-T2.
               </p>
 
-              {/* Info Box */}
+              {/* Daftar Paket Pemasangan */}
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 mt-4">
-                <h3 className="font-bold text-primary mb-3">Mengapa Sistem Ini Sangat Penting?</h3>
+                <h3 className="font-bold text-primary mb-3">Pilihan Paket Pemasangan</h3>
                 <ul className="list-disc list-inside space-y-2 text-sm md:text-base text-gray-600">
-                  <li><strong>Melindungi Elektronik:</strong> Mencegah kerusakan TV, kulkas, AC, dan router akibat lonjakan arus (<em>power surge</em>).</li>
-                  <li><strong>Mencegah Kerusakan Bangunan:</strong> Menghindari retak struktur akibat hantaman langsung.</li>
-                  <li><strong>Mencegah Kebakaran:</strong> Menghilangkan potensi percikan api pemicu kebakaran.</li>
-                  <li><strong>Ketenangan Batin:</strong> Keluarga tetap aman meski terjadi badai petir lebat.</li>
+                  <li><strong className="text-gray-800">Paket Hemat:</strong> Antena digital outdoor + kabel + jasa pasang &amp; arah.</li>
+                  <li><strong className="text-gray-800">Paket Lengkap:</strong> Antena HD + kabel + tiang + Set Top Box (STB) bersertifikat.</li>
+                  <li><strong className="text-gray-800">Paket Smart TV:</strong> Antena HD + setting langsung ke Smart TV (tanpa STB).</li>
                 </ul>
               </div>
+
+              <ul className="list-disc list-inside space-y-2 text-sm md:text-base text-gray-600 mt-4 bg-gray-50 p-6 rounded-xl border border-gray-100">
+                <li><strong className="text-gray-800">Cocok Untuk:</strong> Rumah tinggal, kos, ruko, kantor, kafe, dan tempat usaha.</li>
+                <li><strong className="text-gray-800">Keunggulan:</strong> Tanpa langganan bulanan, gambar HD jernih, dan pemasangan bergaransi.</li>
+              </ul>
             </div>
 
             {/* Kolom Foto Portrait */}
             <div className="lg:col-span-4 order-1 lg:order-2 w-full">
               <div className="w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border border-gray-100 relative group">
                 <img
-                  src="/penangkal2.jpeg"
-                  alt="Instalasi Penangkal Petir"
+                  src="/antenatv.jpeg"
+                  alt="Hasil Pemasangan Antena TV Digital"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm p-3 rounded-xl shadow-sm border border-white">
-                  <p className="text-xs font-bold text-primary text-center tracking-wide uppercase">Instalasi Keamanan</p>
+                  <p className="text-xs font-bold text-primary text-center tracking-wide uppercase">Hasil Pemasangan Kami</p>
                 </div>
               </div>
             </div>
@@ -85,11 +89,11 @@ export default function PenangkalPetirPage() {
           {/* CTA Ringkas */}
           <div className="mt-12 p-8 bg-gray-50 rounded-2xl border-l-4 border-primary flex flex-col md:flex-row justify-between items-center gap-6">
             <div>
-              <h4 className="text-primary font-bold text-xl">Lindungi Rumah Anda Sekarang!</h4>
-              <p className="text-sm text-gray-500">Jangan tunggu sampai terjadi kerusakan. Hubungi kami untuk survei instalasi penangkal petir.</p>
+              <h4 className="text-primary font-bold text-xl">Mau Pasang Antena TV Digital?</h4>
+              <p className="text-sm text-gray-500">Konsultasi gratis &amp; cek sinyal di lokasi Anda sekarang.</p>
             </div>
             <a
-              href="https://wa.me/628212185448?text=Halo%20Hidayah%20TV,%20saya%20ingin%20pasang%20penangkal%20petir."
+              href="https://wa.me/628212185448?text=Halo%20Hidayah%20TV,%20saya%20ingin%20pasang%20antena%20TV%20digital."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-secondary hover:bg-secondary-dark text-white px-8 py-3 rounded-full font-bold shadow-lg shadow-secondary/30 transition-all transform hover:-translate-y-1 whitespace-nowrap text-center"
@@ -97,7 +101,6 @@ export default function PenangkalPetirPage() {
               Hubungi Admin
             </a>
           </div>
-
         </div>
       </section>
     </main>

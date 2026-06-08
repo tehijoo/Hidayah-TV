@@ -3,9 +3,9 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer' // <-- Import Footer yang baru dibuat
 
 export const metadata = {
-  title: 'Hidayah Canopy | Jasa Pembuatan Canopy Profesional',
-  description: 'Spesialis canopy membran, alderon, peredam panas, dan penangkal petir.',
-  
+  title: 'Hidayah TV | Jasa Pasang Antena TV Digital, Parabola & Penangkal Petir',
+  description: 'Spesialis instalasi antena TV digital, parabola, service antena, dan penangkal petir. Profesional, bergaransi, dikerjakan oleh teknisi ahli area Surabaya & sekitarnya.',
+
   // TAMBAHKAN BAGIAN INI:
   verification: {
     google: 'wzEV8vjz48aeh4m433Nx0Qt84MkzoM3u0y5m1yQYZMk',

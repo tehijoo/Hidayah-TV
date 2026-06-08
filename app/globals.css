@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  /* Biru Utama (Ocean Blue) */
-  --color-primary: #006295;
-  --color-primary-dark: #004a70;
-  
+  /* Maroon Utama (Brand Hidayah TV) */
+  --color-primary: #8b1e2d;
+  --color-primary-dark: #6a1421;
+
   /* Kombinasi Abu-abu */
   --color-neutral-bg: #f3f4f6;   /* Abu-abu sangat muda untuk latar belakang */
   --color-neutral-text: #374151; /* Abu-abu tua untuk teks utama */
-  
-  /* Warna Aksen (Tetap Oranye agar Tombol tetap 'menyala') */
-  --color-secondary: #f59e0b;
+
+  /* Warna Aksen (Emas/Gold agar tombol tetap 'menyala' & elegan dengan maroon) */
+  --color-secondary: #d4a017;
+  --color-secondary-dark: #b8860b;
 }
 
 @source "../app";
