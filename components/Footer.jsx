@@ -1,4 +1,5 @@
 import React from "react";
+import TehijooCredit from "@/components/TehijooCredit";
 
 export default function Footer() {
   return (
@@ -75,12 +76,15 @@ export default function Footer() {
             </svg>
             Jalan Semeru Raya, Grogol Petamburan,<br />Jakarta Barat 11450
           </a>
-
-          <p className="text-[10px] text-gray-400 mt-auto pt-6">
-            © {new Date().getFullYear()} Hidayah TV. All Rights Reserved.
-          </p>
         </div>
 
+      </div>
+      {/* Baris bawah: copyright klien + kredit pengembang */}
+      <div className="max-w-7xl mx-auto px-4 md:px-8 mt-12">
+        <div className="pt-6 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-600">
+          <p>© {new Date().getFullYear()} Hidayah TV. All Rights Reserved.</p>
+          <TehijooCredit variant="text" theme="light" accent="var(--color-primary, #8b1e2d)" />
+        </div>
       </div>
     </footer>
   );
